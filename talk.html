@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Sri Balaji Contact">
+        <title>Contact</title>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+        <style>
+           body{
+               font-family: 'Rubik';
+           }
+        </style>
+        <script>
+            function fun(){
+                document.getElementById("secret").innerHTML="There is a secret link for my social networks on Home Page.FIND IT!!"
+            }
+        </script>
+    </head>
+    <body style="background-color: #002929;color:#00ab84;">
+        <h1>TALK TO ME!!</h1>
+        <form action="mailto:srisvit@gmail.com?subject=Hi Baju" method="POST" enctype="text/plain">
+            <table cellspacing="3px">
+                <tr>
+                    <td><label>Your Nice Name:</label></td>
+                    <td><input type="text" name="Name" required><br></td>
+                </tr>
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input type="email" name="Email" required><br></td>
+                </tr>
+                <tr>
+                    <td><label>Chat:</label></td>
+                    <td><textarea name="Chat" cols="16" rows="5"></textarea><br></td>
+                </tr>
+            </table><br>
+            <input type="submit" onclick="fun()">
+        </form>
+        <hr noshade size="4" style="border:solid #00ab84;">
+        <h2 id="secret" style="color: #ffffff;"></h2>
+    </body>
+</html>

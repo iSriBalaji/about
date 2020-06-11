@@ -43,3 +43,12 @@ p,table{
 h2{
     text-decoration: underline;
 }
+
+.honour{
+    color: #393e46;
+}
+.rig{
+    float: left;
+    padding: 20px;
+    text-align: center;
+}

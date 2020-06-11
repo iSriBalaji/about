@@ -2,21 +2,30 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Sri Balaji Contact">
+        <meta name="description" content="Talk to Sri Balaji">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="Author" content="Sri Balaji Muruganandam" />
         <title>Contact</title>
         <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-        <style>
-           body{
-               font-family: 'Rubik';
-           }
-        </style>
+        <link rel="stylesheet" href="master.css">
         <script>
             function fun(){
                 document.getElementById("secret").innerHTML="There is a secret link for my social networks on Home Page.FIND IT!!"
             }
         </script>
+        <style>
+            #sub{
+                font-family:Tajawal;
+                font-size: large;
+                color: #222831;
+                background-color: #00ab84;
+                border: solid #00ab84;
+                margin: 10px 0px;
+            }
+        </style>
     </head>
-    <body style="background-color: #002929;color:#00ab84;">
+    <body>
+        <center>
         <h1>TALK TO ME!!</h1>
         <form action="mailto:srisvit@gmail.com?subject=Hi Baju" method="POST" enctype="text/plain">
             <table cellspacing="3px">
@@ -33,9 +42,10 @@
                     <td><textarea name="Chat" cols="16" rows="5"></textarea><br></td>
                 </tr>
             </table><br>
-            <input type="submit" onclick="fun()">
+            <input type="submit" onclick="fun()" id="sub">
         </form>
-        <hr noshade size="4" style="border:solid #00ab84;">
-        <h2 id="secret" style="color: #ffffff;"></h2>
+        <hr noshade size="4">
+        <h2 id="secret" style="color:#393e46;"></h2>
+        </center>
     </body>
 </html>

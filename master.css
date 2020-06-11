@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+
+body{
+    font-family: Tajawal;
+    font-size: large;
+    background-color: #eeeeee;
+    margin: 50px 150px;
+}
+
+div{
+    margin: 50px 150px;
+}
+
+a:link,a:visited{
+    color: #00ab84;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover,a:active{
+    color: #393e46;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+hr{
+    border-color: #00ab84;
+    border-width: 5px;
+    border-style:none;
+    border-top-style: dotted;
+    /* border:solid #00ab84; */
+    width: 30%;
+    background-color:transparent;
+}
+h1,h2,h3{
+    color: #00ab84;
+
+}
+p,table{
+    color: #222831;
+}
+
+h2{
+    text-decoration: underline;
+}
